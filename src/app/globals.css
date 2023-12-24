@@ -1,3 +1,23 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+body {
+  background-color: rgb(124, 221, 6);
+}
+
+html {
+  
+}
+
+.headingA {
+  -webkit-text-stroke-width: 2.33px;
+  -webkit-text-stroke-color: #ffffff;
+  font-family: "Bowlby One SC";
+}

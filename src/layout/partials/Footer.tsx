@@ -1,11 +1,11 @@
 "use client";
 
-import Logo from "@/components/Logo";
-import Social from "@/components/Social";
-import config from "@/config/config.json";
-import menu from "@/config/menu.json";
-import social from "@/config/social.json";
-import { markdownify } from "@/lib/utils/textConverter";
+import Logo from "@/src/layout/components/Logo";
+import Social from "@/src/layout/components/Social";
+import config from "@/src/config/config.json";
+import menu from "@/src/config/menu.json";
+import social from "@/src/config/social.json";
+import { markdownify } from "@/src/lib/utils/textConverter";
 import Link from "next/link";
 
 const Footer = () => {

@@ -2472,6 +2472,11 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
+json-search-engine@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/json-search-engine/-/json-search-engine-0.0.13.tgz#b8aefab79d890c3961fcf456fea636121de3d8ee"
+  integrity sha512-0geV8Nsy+INzqj+dUgDu2BVxlZ0jSewa6NxYyy3424XYRmTRY1pb+u1M4joBqLqLlcWGJ69ZSRlPYFbjZLbGEw==
+
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"

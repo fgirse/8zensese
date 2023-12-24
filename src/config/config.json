@@ -5,15 +5,15 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo": "/images/LogoEZ.png",
+    "logo_darkmode": "/images/LogoEZ.png",
+    "logo_width": "50",
+    "logo_height": "50",
+    "logo_text": "8zenSe"
   },
 
   "settings": {
-    "search": true,
+    "search": false,
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "system",
@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by MEDICUS DESIGN Basel 🇨🇭"
   },
 
   "navigation_button": {

@@ -1,13 +1,14 @@
 "use client";
 
-import Logo from "@/components/Logo";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
-import config from "@/config/config.json";
-import menu from "@/config/menu.json";
+import config from "@/src/config/config.json"
+import Logo from "@/src/layout/components/Logo";
+import ThemeSwitcher from "@/src/layout/components/ThemeSwitcher";
+import menu from "@/src/config/menu.json";
 import Link from "next/link";
+import AuthInfo from "@/src/app/components/AuthInfo"
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
-import { IoSearch } from "react-icons/io5/index.js";
+//import { IoSearch } from "react-icons/io5/index.js";
 
 //  child navigation link interface
 export interface IChildNavigationLink {
@@ -29,7 +30,6 @@ const Header = () => {
   const { navigation_button, settings } = config;
   // get current path
   const pathname = usePathname();
-
   // scroll to top on route change
   useEffect(() => {
     window.scroll(0, 0);
@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <header
-      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+      className={`bg-black z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
       <nav className="navbar container">
         {/* logo */}
@@ -70,6 +70,7 @@ const Header = () => {
             ></polygon>
           </svg>
         </label>
+{/*}        <AuthInfo username={undefined} />*/}
         {/* /navbar toggler */}
 
         <ul
@@ -145,7 +146,7 @@ const Header = () => {
               aria-label="search"
               data-search-trigger
             >
-              <IoSearch />
+              
             </span>
           )}
           <ThemeSwitcher className="mr-5" />
@@ -158,9 +159,9 @@ const Header = () => {
             </Link>
           )}
         </div>
+        <AuthInfo username={undefined}/>
       </nav>
     </header>
   );
 };
-
-export default Header;
+export default Header
